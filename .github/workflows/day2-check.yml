@@ -29,7 +29,7 @@ jobs:
       - name: Check file structure 
         run: | 
           echo "Проверка наличия файлов..." 
-          for f in docs/schema.sql docs/security.md docs/architecture.md docs/er_diagram.png; do 
+          for f in docs/schema.sql docs/security.md docs/architecture.md docs/er_diagram.png..PNG; do 
             if [ ! -f "$f" ]; then 
               echo "FAIL: Файл $f не найден" 
               exit 1 
