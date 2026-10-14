@@ -46,7 +46,3 @@ jobs:
       - name: Check accessibility 
         run: | 
           grep -q "accessibility" utils/accessibility.py && echo "PASS: accessibility" || echo "FAIL: accessibility"  
-
-git add . 
-git commit -m "Day 3: Backend на Flask" 
-git push origin main 
